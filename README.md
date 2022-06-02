@@ -2,4 +2,4 @@
 
 ## Projects
 
-My CV [Link](https://github.com/AlmondChips/rsschool-cv/blob/gh-pages/cv.md).
+My CV [Link](https://almondchips.github.io/rsschool-cv/cv).
