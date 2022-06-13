@@ -69,6 +69,10 @@ body{
 	color: #f5970b;
   }
 
+  .lsit-style-none{
+	  list-style: none;
+  }
+
   html{
 	  scroll-behavior: smooth;
   }
@@ -120,7 +124,7 @@ body{
 	  margin: 0 0 4px 0;
   }
 
-  p img{
+  li img{
 	  width: 16px;
   }
 
@@ -135,7 +139,7 @@ body{
 	transition: color 0.5s;
   }
 
-  pre a, p a{
+  pre a, li a, section p a{
 	text-decoration: none;
 	color: blueviolet;
 	transition: color 0.5s;
@@ -143,7 +147,7 @@ body{
 
  
   
-  pre a:hover, p a:hover , div a:hover{
+  pre a:hover, li a:hover , div a:hover{
 	color: #f5970b;
   }
 
