@@ -5,7 +5,7 @@
 * [Telegram](https://t.me/AlmondChips)
 * Gmail: <chips6t@gmail.com>
 
-## About me
+## Summary
 
 My main goal is to get basic development skills with which I could more confidently develop further as a developer. For me the priority is knowledge, and if they give it to me, I never refuse.
 
@@ -20,8 +20,7 @@ I have no work experience, but I have a great desire and aspiration to learn a l
 - **WPF** technology
 
 ## Education
--  Basic general education
--  3th Course of Secondary vocational education
+-  Krasnodar Information and Technology College
 
-## Knowledge of English
+## English
 According to the results of the test from [EnglishDom](https://www.englishdom.com/test-your-english-level/test/) my level of English is **B1(Intermediate)**.
