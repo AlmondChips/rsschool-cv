@@ -1,0 +1,163 @@
+body{
+	font-family: 'Roboto Slab', serif;
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.header-container{
+	background-color: rgba(14, 17, 14, 0.705);
+
+}
+
+.footer-container{
+	padding: 5;
+	background-color: rgba(14, 17, 14, 0.705);
+	display: flex;
+	height: 20%;
+	color: #f3fcf4;
+	flex-direction: row;
+	justify-content:center;
+	align-items: center;
+	
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+
+
+
+  .container{
+	  max-width: 1440px;
+	  margin: 0 auto;
+  }
+
+  .nav-list{
+	  display: flex;
+	  justify-content: flex-end;
+	  align-items: center;
+	  list-style: none;
+  }
+
+
+  section ul li{
+	  color:blueviolet;
+  }
+
+  li span{
+	  color:#3c493e ;
+  }
+
+  .nav-link{
+	  padding: 0 20px;
+	  line-height: 50px;
+	  text-decoration: none;
+	  transition: .3s;
+  }
+
+  .nav-item a {
+	color: #f3fcf4;
+	text-decoration: none;  
+	transition: color 0.5s;
+  }
+  .nav-item a:hover {
+	color: #f5970b;
+  }
+
+  html{
+	  scroll-behavior: smooth;
+  }
+
+  .main-container{
+	  display: flex;
+	  flex-wrap: wrap;
+	  margin: 0 200px;
+	  line-height: 1.5;
+	  flex-direction: row;
+	justify-content:space-between;
+	align-items: center;
+  }
+
+  .section{
+	width: 50%;
+	font-size: 20px;
+	font-weight: 500;
+	letter-spacing: 2px;
+	color:#3c493e;
+	
+  }
+
+  .group-center{
+	flex-direction: column;
+	display: flex;  
+	justify-content: center;
+	align-items: center;
+  }
+
+  .section-profile{
+	width: 90%;
+	font-size: 20px;
+	font-weight: 500;
+	color:#3c493e;
+	display:flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items: center;
+	margin: 0 100px;
+  }
+
+  .avatar{
+	border-radius: 100%;
+	width: 256px; 
+  }
+
+  p{
+	  margin: 0 0 4px 0;
+  }
+
+  p img{
+	  width: 16px;
+  }
+
+  .section-title{
+	color:blueviolet;
+	font-variant: small-caps; 
+  }
+
+  div a{
+	text-decoration: none;
+	color: rgb(240, 240, 240);
+	transition: color 0.5s;
+  }
+
+  pre a, p a{
+	text-decoration: none;
+	color: blueviolet;
+	transition: color 0.5s;
+  }
+
+ 
+  
+  pre a:hover, p a:hover , div a:hover{
+	color: #f5970b;
+  }
+
+  span{
+	color:blueviolet; 
+  }
+
+  .profile-name{
+	  letter-spacing: 5px;
+	  text-transform: uppercase;
+  }
+
+  @media (max-width: 768px) {
+	  .section{
+		  width: 100%;
+	  }
+  }
