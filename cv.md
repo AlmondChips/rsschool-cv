@@ -1,8 +1,8 @@
 # **Mikhail Savenko**
 
 ## Contacts
-* Discord: AlmondChips#7041
-* [Telegram](https://t.me/AlmondChips)
+* Discord: almondchips
+* Telegram: [Me](https://t.me/AlmondChips)
 * Gmail: <chips6t@gmail.com>
 
 ## Summary
