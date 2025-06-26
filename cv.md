@@ -16,9 +16,20 @@ I have no work experience in software development, but I have a great desire and
 ## Skills
 - **HTML/CSS** (Basics)
 - **JavaScript** (Basics)
+- **Python** (Basics)
 - **C#** (Basics)
+- **TypeScript** (Basics)
+- **React** (Basics)
+- **Redux** (Basics)
+- **NodeJS** (Basics)
+- **NestJS** (Basics)
+- **GraphiQL** (Basics)
+- **Docker** (Basics)
+- **TelegramAPI** (Bots\user-bots) - capable to automate basic processes in Telegram
+- **Webpack**
+- **Vite**
 - **SQL** (Basics)
-- Relational database concepts
+- Relational database concepts of design and developing
 - **WPF** technology
 
 ## Education
