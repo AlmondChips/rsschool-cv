@@ -42,18 +42,44 @@ I have no work experience in software development, but I have a great desire and
 According to the results of the test from [EnglishDom](https://www.englishdom.com/test-your-english-level/test/) my level of English is **B2(UPPER-INTERMEDIATE)**.
 
 ## Code example
-```
-function killer(suspectInfo, dead) {
-  let countOfDedections = 0;
-  const maxCountOfDedections = dead.length;
-  for(suspect in suspectInfo){
-    suspectInfo[suspect].forEach(element => {
-    if (dead.includes(element)) countOfDedections++
-    });
-    if (maxCountOfDedections == countOfDedections) return suspect;
-    else countOfDedections = 0;
-    
+My recent solution on Codewars to the [Number Of Carries](https://www.codewars.com/kata/58a6568827f9546931000027/javascript) kata:
+```javascript
+function numberOfCarries(a, b) {
+  const nums = arguments;
+  const stringified = []
+
+  for (i = 0; i < nums.length ; i++) {
+    stringified.push(String(nums[i]).split(''))
   }
+
+  const [range1, range2] = stringified.map(n => n.length);
+
+  if (range1 > range2)
+     return countCarries(range1, range2, stringified, 1);
+  else 
+     return countCarries(range2, range1, stringified, 0);
+
+
+}
+
+function countCarries(range1, range2, strArr, index) {
+    let counter = 0;
+
+    const diff = range1 - range2;
+    const newVal = new Array(diff).fill(0);
+    newVal.push(...strArr[index]);
+    strArr[index] = newVal;
+
+    const numArrays = strArr.map(arr => arr.map(char => Number(char)));
+    for (i = range1; i >= 0 ; i--) {
+      const sum = numArrays[0][i] + numArrays[1][i];
+      if (sum > 9) {
+        counter++;
+        numArrays[index ^ 1][i-1] += Math.floor(sum / 10);
+      }
+    }
+
+    return counter;
 }
 ```
 
