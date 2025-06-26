@@ -39,7 +39,7 @@ I have no work experience in software development, but I have a great desire and
  Specialization: Design and Development of Information Systems
 
 ## English
-According to the results of the test from [EnglishDom](https://www.englishdom.com/test-your-english-level/test/) my level of English is **B1(Intermediate)**.
+According to the results of the test from [EnglishDom](https://www.englishdom.com/test-your-english-level/test/) my level of English is **B2(UPPER-INTERMEDIATE)**.
 
 ## Code example
 ```
