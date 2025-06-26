@@ -7,11 +7,11 @@
 
 ## Summary
 
-My main goal is to get basic development skills with which I could more confidently develop further as a developer. For me the priority is knowledge, and if they give it to me, I never refuse.
+My main goal is to get better at programming in particular with which I could move confidently further as a developer. For me the priority is knowledge and experience.
 
-One of my strengths is determination. In addition, I can work well in a team.
+One of my strengths is determination and well developed problem solving skill. In addition, I work quite well in a team.
 
-I have no work experience, but I have a great desire and aspiration to learn a lot of new things, which would help me to find a profession.
+I have no work experience in software development, but I have a great desire and inspiration to learn a lot of new things and stuff, which would help me to realize my passion in a real production projects.
 
 ## Skills
 - **HTML/CSS** (Basics)
