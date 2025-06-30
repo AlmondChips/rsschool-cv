@@ -90,3 +90,19 @@ function countCarries(range1, range2, strArr, index) {
 [Momentum clone](https://almondchips-momentum.netlify.app/)
 ![изображение](https://user-images.githubusercontent.com/94008966/188715554-1c99d932-39ac-4473-99db-17bc9b3de139.png)
 
+[Online Zoo](https://rolling-scopes-school.github.io/almondchips-JSFE2022Q3/online-zoo/pages/main/)
+![изображение](https://github.com/user-attachments/assets/a7d1ce7b-861f-4ff5-8560-3d740b41e0e0)
+
+[Bird Song](https://rolling-scopes-school.github.io/almondchips-JSFE2022Q3/songbird/)
+![изображение](https://github.com/user-attachments/assets/1e2f5ce0-83b9-4b9d-bcb6-8b9aa6581d2a)
+
+[Gem Puzzle](https://almondchips.github.io/Gem-puzzle/Gem-Puzzle/)
+
+
+![изображение](https://github.com/user-attachments/assets/c0bcd9fe-2439-41c1-8d92-ee5bd259936b)
+
+
+
+
+
+
