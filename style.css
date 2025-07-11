@@ -89,4 +89,24 @@ header {
   display: none;
 }
 
+.introduction {
+  font-size: 24px;
+  display: flex;
+  padding: 30px 50px;
+}
+
+.greetings{
+  flex-grow: 1;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile img{
+  border: 2px dashed rgb(241, 189, 125);
+  border-radius: 50%;
+  object-position: center;
+}
 
