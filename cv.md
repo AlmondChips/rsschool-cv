@@ -36,7 +36,9 @@ I have no work experience in software development, but I have a great desire and
  Associate Degree in Information Systems\
  Krasnodar Information and Technology College, Krasnodar, Russia\
  Graduated: June 2023\
- Specialization: Design and Development of Information Systems
+ Specialization: Design and Development of Information Systems\
+ \
+ Rolling Scopes School Front-end\React: 2022-2023
 
 ## English
 According to the results of the test from [EnglishDom](https://www.englishdom.com/test-your-english-level/test/) my level of English is **B2(UPPER-INTERMEDIATE)**.
