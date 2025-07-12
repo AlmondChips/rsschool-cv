@@ -24,6 +24,10 @@
     font-display: swap;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--main-color);
   color: var(--main-text);
