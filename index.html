@@ -4,7 +4,8 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="./style.css">
+	<link rel="preload" href="./style.css">
+  <link rel="stylesheet" href="./style.css">
   <link rel="preload" href="fonts/OpenSans-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
   <link rel="preload" href="fonts/OpenSans-Italic.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
   <link rel="preload" href="fonts/OpenSans-Regular.woff" as="font" type="font/woff2" crossorigin="anonymous"/>
@@ -16,11 +17,11 @@
  <header>
     <nav class="nav-container">
       <ul class="navigation">
-        <li>Skills</li>
-        <li>Education</li>
-        <li>Languages</li>
-        <li>Code example</li>
-        <li>Projects</li>
+        <li><a href="#skills-block">Skills</a></li>
+        <li><a href="#edu-block">Education</a></li>
+        <li><a href="#lang-block">Languages</a></li>
+        <li><a href="#code-block">Code example</a> </li>
+        <li><a href="#">Projects</a></li>
       </ul>
     </nav>
   </header>
@@ -29,22 +30,128 @@
       Mikhail Savenko - RS School Front-End Developer Student CV
     </h1>
 
-    <article class="about">
-
+    <div class="about">
       <section class="introduction">
         <div class="greetings">
           <h2>Hi, I am Mikhail</h2>
-        <p>RS School's Front-End Developer Student</p>
+        <p>RS School's Front-End Development Student</p>
         </div>
         <div class="profile">
           <img width="300" height="300" src="https://avatars.githubusercontent.com/u/94008966?v=4" alt="profile-picture">
         </div>
       </section>
       <section>
-        <h2>I am...</h2>
+        <h2>About me</h2>
+        <div class="corner-box">
+          <p>
+            My main goal is to improve at programming particularly in areas that will help me progress confidently as a developer. For me the priority is <strong>knowledge</strong> and <strong>experience</strong>. <br>
+            One of my strengths is determination and well developed <strong>problem solving </strong>skill. In addition, I work quite well in a team. <br>
+            I have no work experience in software development, but I have a great desire and <strong>inspiration</strong> to learn a lot of new things and stuff, which would help me to realize my <strong>passion</strong> in a real production projects.
+          </p>
+        </div>
       </section>
-    </article>
+    </div>
 
+    <section>
+      <h2 id="skills-block">Skills</h2>
+      <ul class="skills-list">
+        <li title="(Basics)">HTML</li>
+        <li title="(Basics)">CSS</li>
+        <li title="(Basics)">JavaScript</li>
+        <li title="(Basics)">Python</li>
+        <li title="(Basics)">C#</li>
+        <li title="(Basics)">TypeScript</li>
+        <li title="(Basics)">React</li>
+        <li title="(Basics)">Redux</li>
+        <li title="(Basics)">NodeJS</li>
+        <li title="(Basics)">NestJS</li>
+        <li title="(Basics)">GraphiQL</li>
+        <li title="(Basics)">Docker</li>
+        <li title="(Bots\user-bots) - capable to automate basic processes in Telegram">TelegramAPI</li>
+        <li>Webpack</li>
+        <li>Vite</li>
+        <li title="(Basics) + Relational database concepts of design and developing">SQL</li>
+        <li title="Technology">WPF</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 id="edu-block">Education</h2>
+      <div class="edu-container">
+        <div class="education-card">
+          <p><b><span class="period">2019 - 2023</span></b></p>
+          <p>
+            Associate Degree in Information Systems <br>
+            Krasnodar Information and Technology College, Krasnodar, Russia <br>
+            Specialization: Design and Development of Information Systems <br>
+          </p>
+        </div>
+        <div class="education-card">
+          <p><b><span class="period">2022 - 2023</span></b></p>
+          <p>
+            Rolling Scopes School Front-End\React Course
+          </p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h2 id="lang-block">Languages</h2>
+      <div class="lang-container">
+        <div>
+          <p>Russian</p>
+          <p>Native</p>
+        </div>
+        <div>
+          <p>English</p>
+          <p>Upper-intermediate</p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h2 id="code-block">Code example</h2>
+      <details>
+        <summary>My recent solution on Codewars to the <a href="https://www.codewars.com/kata/58a6568827f9546931000027/javascript" target="_blank" rel="noreferrer noopener"><b>Number Of Carries</b></a> kata</summary>
+        <div class="code-block">
+          <span class="keyword">function</span> <span class="func-name">numberOfCarries</span>(a, b) {
+            <span class="keyword">const</span> nums = arguments;
+            <span class="keyword">const</span> stringified = [];
+
+            <span class="keyword">for</span> (i = <span class="number">0</span>; i &lt; nums.length ; i++) {
+              stringified.push(<span class="func-name">String</span>(nums[i]).split(''));
+            }
+
+            <span class="keyword">const</span> [range1, range2] = stringified.map(n =&gt; n.length);
+
+            <span class="keyword">if</span> (range1 &gt; range2)
+              <span class="keyword">return</span> <span class="func-name">countCarries</span>(range1, range2, stringified, <span class="number">1</span>);
+            <span class="keyword">else</span>
+              <span class="keyword">return</span> <span class="func-name">countCarries</span>(range2, range1, stringified, <span class="number">0</span>);
+          }
+
+          <span class="keyword">function</span> <span class="func-name">countCarries</span>(range1, range2, strArr, index) {
+            <span class="keyword">let</span> counter = <span class="number">0</span>;
+
+            <span class="keyword">const</span> diff = range1 - range2;
+            <span class="keyword">const</span> newVal = <span class="keyword">new</span> <span class="func-name">Array</span>(diff).fill(<span class="number">0</span>);
+            newVal.push(...strArr[index]);
+            strArr[index] = newVal;
+
+            <span class="keyword">const</span> numArrays = strArr.map(arr =&gt; arr.map(char =&gt; <span class="func-name">Number</span>(char)));
+            <span class="keyword">for</span> (i = range1; i &gt;= <span class="number">0</span> ; i--) {
+              <span class="keyword">const</span> sum = numArrays[<span class="number">0</span>][i] + numArrays[<span class="number">1</span>][i];
+              <span class="keyword">if</span> (sum &gt; <span class="number">9</span>) {
+                counter++;
+                numArrays[index ^ <span class="number">1</span>][i-<span class="number">1</span>] += <span class="func-name">Math</span>.floor(sum / <span class="number">10</span>);
+              }
+            }
+
+            <span class="keyword">return</span> counter;
+          }
+        </div>
+
+      </details>
+
+    </section>
   </main>
   <footer>
 
